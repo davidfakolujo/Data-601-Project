@@ -1,14 +1,40 @@
 # Analysis of Data Science Jobs between 2020 and 2023
-# Introduction
+
+## Introduction
+
 This project explores the attributes surrounding Data Science jobs between 2020 and 2023. The insights generated from this dataset’s exploration will be valuable to professionals seeking to transition into the data science field, as well as those already in the field, looking to widen their expertise or transform within the field.
-# Methodology 
-In conducting the analysis, the following approach was taken:
+
+## Datasets
+
+The primary analysis will be conducted using a dataset from Kaggle, which contains data on data science jobs between 2020 and 2023. This is a singular, structured dataset that contains 3,755 rows and 11 columns consisting of key variables related to jobs in the data science field.
+
+A complementary analysis will focus on the skills variable from a separate dataset, also retrieved from Kaggle. The dataset contains 12,217 rows that each contain skills required for data science related jobs posted on LinkedIn in January 2024.
+
+Both datasets are publicly available on Kaggle, and we have permission to use them, as Kaggle is an open data source.
+
+## Guiding Questions
+
+**1**. What has been the growth rate in Data Science jobs in the past four years? 
+
+**2**. What is the overall distribution of salaries in the dataset, as well as the salary distribution across categorical variables, such as experience level, company size, remote status?
+
+**3**. What has been the trend over time of remote jobs in the Data Science field? 
+
+**4**. What has the distribution of Data Science job titles been over the years, as well as the distribution per experience level and remote status?
+
+**5**. What are the in demand skills in the Data Science field?
+
+**6**. What are the proportions of employment types in the Data Science field?
+
+## Methodology 
+In conducting the analysis, the following approaches were taken:
   * **Data Cleaning and Preprocessing** \- This involved loading and inspecting each dataset independently. Data was cleaned and extracted using regex, among other processes. Irrelevant columns were also removed. Job titles were also grouped into more general job titles.
   * **Exploratory Data Analysis** \- This involved generating statistical summaries on the numerical data. Outlier detection was also carried out.
-  * **Data Visualization** \- Visualizations such as line plots, bar charts, clustered bar charts, violin plotsm-, box plots, pie charts and heat maps were plotted to aid the data analysis.
-  *  **Further Analysis** \- Hypothesis testing such as T-Test and Chi-Squared test were run to determine correlation betwenn caterogical variables.
+  * **Data Visualization** \- Visualizations such as line plots, bar charts, clustered bar charts, violin plots, box plots, pie charts and heat maps were plotted to aid the data analysis.
+  *  **Hypothesis Testing** \- T-Tests were run between the salaries of categories within the categorical variables, while chi-squared tests would be performed on some categorical variables.
   *  **Reporting and Insights** \- This involved the preparation of a report that displayed key trends in the growth of the data science field as well as the salaries for jobs in this field.
-# Insights Gained
+
+## Insights Gained
 The following insights were gained:
  **Growth of Data Science Jobs**
 - The number of data science jobs has grown significantly over the past four years, with a notable boom between 2021 and 2022.
@@ -38,3 +64,11 @@ The following insights were gained:
 
 **Statistical Relationships**
 - There is no statistical relationship between employment type and job title, employment type and company location, or experience level and company location. All other categorical variables are statistically dependent, meaning they influence one another.
+
+**Final Thoughts**
+- The Data Science job market is growing, with increasing demand for skilled professionals, rising salaries, a shift back to in-person work, etc. Professionals seeking higher salaries may target US-based jobs and larger companies. In addition, professionals should ensure they continuously develop high-demand skills like Python, SQL, Machine Learning, Communication, etc., to ensure they stay relevant in the field.
+- The high demand for senior expertise should serve as motivation rather than discouragement. Internships and networking opportunities can be valuable entry points into the field.
+- This analysis provides valuable insights for data science professionals, job seekers, employers, etc., looking to understand trends in the Data Science industry.
+
+## License
+This project is licensed under the terms of the MIT license.
